@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.agameoftwohalves.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.titanscity.app" versionCode="10" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
     <name>TitansCity.com</name>
     <description>Suivez l'actu de City of Titans en Français.</description>
-    <author email="contact@" href="http://TitansCity.com">Artemis</author>
-
-    <preference name="phonegap-version" value="3.3.0" />
+    <author email="contact@titanscity.com" href="http://TitansCity.com">Artemis</author>
+	<platform name="ios" />
+    <platform name="android" />
+	<preference name="phonegap-version" value="3.3.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
