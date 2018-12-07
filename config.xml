@@ -3,7 +3,7 @@
     
     <name>TitansCity.com</name>
     <description>Suivez l'actu de City of Titans en Français.</description>
-    <author email="contact@titanscity.com" href="http://TitansCity.com">Artemis</author>
+    <author email="contact@" href="http://TitansCity.com">Artemis</author>
 
     <preference name="phonegap-version" value="3.3.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
