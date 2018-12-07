@@ -10,18 +10,18 @@
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
     
-    <plugin name="org.apache.cordova.device" />
-    <plugin name="org.apache.cordova.camera" />
-    <plugin name="org.apache.cordova.media-capture" />
-    <plugin name="org.apache.cordova.file" />
-    <plugin name="org.apache.cordova.file-transfer" />
-    <plugin name="org.apache.cordova.splashscreen" />
-    <plugin name="org.apache.cordova.contacts" />
-    <plugin name="org.apache.cordova.geolocation" />
-    <plugin name="org.apache.cordova.inappbrowser" />
-    <plugin name="org.apache.cordova.dialogs" />
-    <plugin name="org.apache.cordova.vibration" />
-    <plugin name="org.apache.cordova.network-information" />
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-camera" />
+    <plugin name="cordova-plugin-media-capture" />
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-file-transfer" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-contacts" />
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-vibration" />
+    <plugin name="cordova-plugin-network-information" />
     <plugin name="com.simplec.plugins.localnotification" />
 
 	<icon src="icon.png" />
