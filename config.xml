@@ -10,21 +10,21 @@
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
     
-    <!--
-	<plugin name="cordova-plugin-device" />
-    <plugin name="cordova-plugin-camera" />
+    
+	<plugin name="cordova-plugin-device" spec="~2.0.2" />
+   <!--  <!-- <plugin name="cordova-plugin-camera" /> -->
     <plugin name="cordova-plugin-media-capture" />
     <plugin name="cordova-plugin-file" />
-    <plugin name="cordova-plugin-file-transfer" />
-    <plugin name="cordova-plugin-splashscreen" />
-    <plugin name="cordova-plugin-contacts" />
-    <plugin name="cordova-plugin-geolocation" />
-    <plugin name="cordova-plugin-inappbrowser" />
-    <plugin name="cordova-plugin-dialogs" />
-    <plugin name="cordova-plugin-vibration" />
-    <plugin name="cordova-plugin-network-information" />
-    <plugin name="com.simplec.plugins.localnotification" />
--->
+    <plugin name="cordova-plugin-file-transfer" /> -->
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+    <plugin name="cordova-plugin-contacts" spec="~3.0.1" />
+    <plugin name="cordova-plugin-geolocation"  spec="~4.0.1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
+    <plugin name="cordova-plugin-dialogs" spec="~2.0.1" />
+    <plugin name="cordova-plugin-vibration" spec="~3.1.0" />
+    <plugin name="cordova-plugin-network-information" spec="~2.0.1" />
+    <plugin name="cordova-plugin-local-notifications" />
+
 	<icon src="icon.png" />
 	
     <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
